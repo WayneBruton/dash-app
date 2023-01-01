@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 
 dash.register_page(__name__, name="Game Sales", title="Pie")
 
-df = pd.read_csv("vgsales.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/WayneBruton/dash-app/main/vgsales.csv")
 # print(df.head())
 areas = ["North American Sales", "EU Sales", "Japan Sales", "Other Sales", "World Sales"]
 
